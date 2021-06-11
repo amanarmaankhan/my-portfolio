@@ -11,7 +11,9 @@
     <!--header-->
     <header class="top-header">
         <nav>
-            <ul>
+            <ul class="topnav" id="dropdownClick">
+                <li class="dropDownIcon"><a href="javascript:void(0)" onclick="dropDown()">	
+                    &#9776</a></li>
                 <li><a href="./project.html">Projects</a></li>
                 <li><a href="https://github.com/amanarmaankhan">Github</a></li>
                 <li><a href="./CV_2020-11-12-084028.pdf">Resume</a></li>
@@ -110,5 +112,19 @@
             </div>
         </div>
     </section>
+    <script>
+        function dropDown(){
+            var x = document.getElementById("dropdownClick");
+            var y = document.getElementById("hide");
+            if (x.className === "topnav"){
+                x.className += " responsive";
+                console.log("Navbar ON");
+            }
+            else{
+                x.className = "topnav";
+                console.log("Navbar Gone");
+            }
+        }
+    </script>
 </body>
 </html>
