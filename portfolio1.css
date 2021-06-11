@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&family=Poppins:ital,wght@1,100&display=swap");
+*{
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+}
+body{
+font-family: 'Oxygen', sans-serif;
+}
+/*header*/
+header.top-header{
+    height: 900px;
+    background:url('./images/front.png');
+    background-size: auto;
+}
+header.top-header nav{
+    text-align: center;
+    padding: 5px;
+
+}
+header.top-header nav ul li{
+    padding: 20px;
+    font-size:25px;
+    list-style: none;
+    float: left;
+}
+header.top-header nav ul li.right{
+    font-size: 25px;
+    float: right;
+}
+header.top-header nav ul li a{
+    color:darkcyan;
+}
+nav ul::after{
+    display: block;
+    clear:both;
+    content: "";
+}
+header.top-header nav ul li a.button{
+    background-color:dodgerblue;
+    color:white;
+    padding: 10px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+header.top-header nav ul li a{
+    text-decoration: none;
+    color:dodgerblue;
+}
+header.top-header nav ul li a:hover{
+    color: rgb(0, 75, 102); 
+    text-decoration:overline;
+    margin:5px rgb(0, 50, 66) solid;
+    background-color:white;
+}
+header.top-header nav ul li a.button:hover{
+    color: rgb(0, 50, 66) ;
+    background-color:aliceblue;
+    text-decoration:none;
+}
+header.top-header .container{
+    text-align:justify;
+    margin-left: 50px;
+    font-size: 20px;
+    color:rgb(0, 50, 66);
+    vertical-align: middle;
+    margin-top: 120px
+}
+header.top-header .container p{
+    color: rgb(1, 112, 150);
+}
+header.top-header .container a{
+    color: rgb(1, 112, 150);
+    text-decoration: none;
+}
+header.top-header .container a:hover{
+    color: dodgerblue;
+    text-decoration: overline;
+    background-color: white;
+
+}
+/*about me css*/
+section.about{
+    text-align: center;
+    padding: 25px;
+}
+
+.about-container div.matter{
+    width: 100%;
+    height: 100%;
+    float:inline-end;
+    text-align: center;
+}
+
+.about-container::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+div.matter{
+    margin-top: 20px;
+    font-size: 25px;
+    padding: 20px;
+    text-align: left;
+}
+
+.about-container div.matter a.button{
+    background-color: azure;
+    color: black;
+    padding: 15px;
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about-container div.matter a.button:hover{
+    color: lightseagreen;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+div.menu div.parts{
+    width: 25%;
+    float: left;
+}
+
+div.menu::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+
+div.menu div.parts .sub-heading{
+    color: dodgerblue;
+    font-size: 28px;
+    margin: 10px;
+}
+
+div.menu div.parts .content{
+    font-size: 23px;
+}
+
+a.link{
+    display: inline-block;
+    color:dodgerblue;
+    font-size: 20px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+a.link:hover{
+ color: rgb(1, 112, 150);
+ background-color: white;
+ text-decoration: underline;
+}
+
+/*why me*/
+section.why-me{
+    height: 900px;
+    background:url('./images/avento.gif');
+    background-size: cover;
+}  
+hr{ width: 99%;}
+section.why-me{
+    text-align: center;
+}
+.why-me-container{
+    font-size: 25px;
+}
+
+.matter{
+    color:dodgerblue;
+    text-align:end;
+    width: 60%;
+    margin-left: 20px;
+    padding: 30px;
+}
+.matter a.button{
+    background-color: azure;
+    color: black;
+    padding:15px;
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+/*contact me*/
+
+.contact-me{
+    text-align: center;
+    background-color:azure;
+
+}
+
+.contact-me h2{
+    color:dodgerblue;
+    font-size: 35px;
+}
+.contact-container form{
+    display: inline-block;
+    font-size: 25px;
+    color:dodgerblue;
+    margin-right: 170px;
+    margin-top: 100px;
+}
+div.contact-container form input{
+    width: 400px;
+    padding: 8px;
+    border:dodgerblue solid 3px;
+    font-family: 'Oxygen', sans-serif;
+    border-radius: 3px;
+}
+div.contact-container form textarea{
+    width: 400px;
+    font-family: 'Oxygen', sans-serif;
+    padding: 8px;
+    border:dodgerblue solid 3px;
+    border-radius: 8px;
+}
+div.contact-img,.contact-details{
+    width: 50%;
+    float: left;
+}
+
+.contact-container::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+.contact-details{
+    margin-top: 50px;
+    text-align: left;
+    font-size: 30px;
+    color: dodgerblue;
+}
+
+.contact-details ul{
+    margin: 10px;
+}
+
+.button-2{
+    background-color:dodgerblue;
+    color: azure;
+    padding: 15px;
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px;
+}
+a:hover{
+    color:dodgerblue;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* RESPONSIVE CSS */
+
+@media (max-width: 500px) {
+    header.top-header{
+        background: url("./images/mobile.png");
+        height: 50vh;
+        background-position-x:center;
+        height: 900px;
+        background-size:cover;
+        background-color: mintcream;
+
+    }
+    header.top-header div.container h1{
+        font-size: 25px;
+    }
+    header.top-header div.container p{
+        font-size: 20px;
+        text-align: center;
+        color: dodgerblue;
+    }
+    header.top-header div.container a.button{
+        font-size: 16px;
+    }
+    
+    header.top-header nav ul li{
+        display: none;
+    }
+    header.top-header nav ul li.dropDownIcon{
+        display: block;
+        position: absolute;
+    }
+
+    header.top-header nav ul.topnav.responsive{
+        position: absolute;
+        background-color: rgba(0, 0, 0, 1);
+        width: 100vw;
+        height: 50vh;
+        padding: 10px;
+    }
+
+    header.top-header nav ul.topnav.responsive li.dropDownIcon{
+        float: left;
+    }
+
+    header.top-header nav ul.topnav.responsive li{
+        display: block;
+        float:none;
+    }
+    .about-container div.matter{
+        width: 100%;
+        text-align: center;
+    }
+    div.vector-img img{
+        width: 80vw;
+        height: 40vh;
+        margin: 0;
+        padding: 0;
+    }
+    div.menu div.parts{
+        width: 100%;
+    }
+
+    .why-container{padding: 0;}
+    .matter{
+        margin: 0;
+        width: 100%;
+        text-align:center;
+    }
+
+    section.why-me{
+        background: white;
+        height: 70vh;
+        background-size: cover;
+        background-position-x: right;
+
+    }
+    .contact-container .form{
+
+        width: 100vw;
+        margin-bottom: 20vw;
+    }
+    .contact-container .contact-img{
+        width: 70vw;
+        margin-top: 20vw;
+        margin: 0;
+        padding: 0;
+    }
+    .contact-details{
+        width: 100vw;
+        text-align: center;
+    }
+
+}
