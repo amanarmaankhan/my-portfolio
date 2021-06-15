@@ -321,6 +321,9 @@ a:hover{
     div.menu div.parts{
         width: 100%;
     }
+    .contact-me{
+        background-color: white;
+    }
 
     .why-container{padding: 0;}
     .matter{
