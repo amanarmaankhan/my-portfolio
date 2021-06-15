@@ -49,21 +49,14 @@ section.my-projects div.container{
 section.my-projects div.container:hover{
     text-shadow: lightseagreen;
 }
-
-section.my-projects div.container div.img{
-    width: 25%;
-    background-color: orangered;
-    float: left;
-    height:200px;
-}
-
 section.my-projects div.container div.matter{
     width: 75%;
     float: left;
-    background-color: azure;
+    background-color:azure;
     color:black;
     height: 200px;
     padding: 20px;
+    text-align: center;
 }
 
 section.my-projects div.container::after{
@@ -73,11 +66,11 @@ section.my-projects div.container::after{
 }
 
 .project-heading{
-    color: orangered;
+    color:dodgerblue;
     display: inline-block;
     padding: 5px;
     margin: 5px;
-    border-bottom: 2px solid lightseagreen;
+    border-bottom: 1px solid rgb(1, 112, 150);
 }
 /* RESPONSIVE CSS */
 
@@ -86,16 +79,6 @@ section.my-projects div.container::after{
         width: 90%;
         margin: 15px auto;
     }
-    section.my-projects div.container div.img{
-        width: 100%;
-        float: none;
-    
-    }
-
-    section.my-projects div.container div.img img{
-        width: 100%;
-    }
-
     section.my-projects div.container div.matter{
         width: 100%;
         float: none;
