@@ -192,12 +192,6 @@ section.why-me{
     margin: 10px;
 }
 
-
-
-
-
-
-
 /*contact me*/
 
 .contact-me{
@@ -268,12 +262,13 @@ a:hover{
 }
 /* RESPONSIVE CSS */
 
-@media (max-width: 500px) {
+@media (max-width:500px) {
     header.top-header{
         background: url("./images/mobile.png");
         height: 50vh;
         background-position-x:center;
         height: 900px;
+        width: 500px;
         background-size:cover;
         background-color: mintcream;
 
@@ -300,7 +295,7 @@ a:hover{
 
     header.top-header nav ul.topnav.responsive{
         position: absolute;
-        background-color: rgba(0, 0, 0, 1);
+        background-color:whitesmoke;
         width: 100vw;
         height: 50vh;
         padding: 10px;
@@ -311,7 +306,7 @@ a:hover{
     }
 
     header.top-header nav ul.topnav.responsive li{
-        display: block;
+        display:block;
         float:none;
     }
     .about-container div.matter{
@@ -339,21 +334,20 @@ a:hover{
         background: white;
         height: 70vh;
         background-size: cover;
-        background-position-x: right;
-
     }
-    .contact-container .form{
+    .contact-container form{
 
         width: 100vw;
-        margin-bottom: 20vw;
+        margin-bottom: 15vw;
     }
     .contact-container .contact-img{
-        width: 70vw;
-        margin-top: 20vw;
-        margin: 0;
+        width: 40vw;
+        margin-top: 40vw;
+        margin: -30vw;
         padding: 0;
     }
     .contact-details{
+        margin-top: 90vw;
         width: 100vw;
         text-align: center;
     }
